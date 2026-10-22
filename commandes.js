@@ -9,3 +9,9 @@ const montant_tva_produit = montant_total_produit * 18 / 100
 const montant_total_ttc = montant_total_produit + tva 
 const montant_final_payer = montant_total_ttc + fraisLivraison
 const prix_moyen_payer = montant_total_ttc / quantite
+
+console.log("==== INFORMATION DE LA COMMANDE ====")
+console.log ("Client :", nomClient)
+console.log("Produit :", nomProduit)
+console.log("Prix unitaire :", prixUnitaire)
+console.log("Quantité :", quantite)
